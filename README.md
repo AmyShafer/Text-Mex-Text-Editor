@@ -21,13 +21,13 @@ This application was built using starter code, node.js, Webpack, and a package c
 
 image
 
-<img src="./Assets/scheduler666.gif" width="550" height="300" alt="Scheduler for the Wicked"/>
+<img src="./assets/textmex.gif" width="550" height="300" alt="Text Mex Text Editor"/>
 
 ## Resources-used
 
-- <a href="link" target="_blank"> </a>
+- <a href="link" target="_blank"> Details </a>
 
-- <a href="link target="\_blank"> </a>
+- <a href="link" target="_blank"> Details </a>
 
 ## Possible-improvements
 

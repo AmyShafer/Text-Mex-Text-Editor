@@ -1,16 +1,16 @@
 /* app shell CSS */
 :root {
-  --primary: #31a9e1;
-  --gray: #ececec;
-  --whitesmoke: #f5f5f5;
-  --dark: #222;
-  --monoaki: #272822;
+  --roasted-red-chili: #c10723;
+  --jalapeno-dream: #477227;
+  --unik-white: #f5f5f5;
+  --blue-skies: #6ec8ef;
+  --sugar-skull-black: #120200 ;
   --navbar-height: 50px;
 }
 
 body {
   margin: 0;
-  background-color: var(--monoaki);
+  background-color: var(--unik-white);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -22,12 +22,12 @@ h1 {
 
 #navbar {
   height: var(--navbar-height);
-  background-color: var(--primary);
+  background-color: var(--roasted-red-chili);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: white;
+  color: var(--unik-white);
   font-size: 22px;
   font-weight: 550;
   letter-spacing: 0.9px;
@@ -44,7 +44,7 @@ h1 {
   animation-timing-function: linear;
   height: 30px;
   width: 30px;
-  border: 3px solid var(--primary);
+  border: 3px solid var(--roasted-red-chili);
   border-right-color: transparent;
   border-radius: 50%;
 }
@@ -90,13 +90,13 @@ h1 {
   border-radius: 0.3rem;
   border: 1px solid transparent;
   outline: none;
-  color: #1a1a1a;
-  background-color: #aeaeae;
+  color: var(--sugar-skull-black);
+  background-color: var(--unik-white);
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .btn:hover {
-  background-color: #cecece;
+  background-color: var(--jalapeno-dream);
   cursor: pointer;
 }
 
@@ -121,75 +121,75 @@ h1 {
 }
 
 .btn.btn-primary {
-  background-color: #2d3e50;
-  color: #d9e9e8;
+  background-color: var(--blue-skies);
+  color: var(--sugar-skull-black);
 }
 
 .btn.btn-primary:hover {
-  background-color: #57779a;
+  background-color: var(--unik-white);
 }
 
 .btn.btn-danger {
-  background-color: #e64c66;
-  color: #ffffff;
+  background-color: var(--roasted-red-chili);
+  color: var(--unik-white);
 }
 
 .btn.btn-danger:hover {
-  background-color: #ee8294;
+  background-color: var(--blue-skies);
 }
 
 .btn.btn-info {
-  background-color: #1bbc9b;
-  color: #ffffff;
+  background-color: var(--sugar-skull-black);
+  color: var(--unik-white);
 }
 
 .btn.btn-info:hover {
-  background-color: #31e1bd;
+  background-color: var(--blue-skies);
 }
 
 .btn.btn-light {
-  background-color: #d9e9e8;
-  color: #1a1a1a;
+  background-color: var(--jalapeno-dream);
+  color: var(--sugar-skull-black)
 }
 
 .btn.btn-light:hover {
-  background-color: #84b8b4;
+  background-color: var(--blue-skies);
 }
 
 .btn.btn-dark {
-  background-color: #1a1a1a;
-  color: #d9e9e8;
+  background-color: var(--sugar-skull-black);
+  color: var(--unik-white);
 }
 
 .btn.btn-dark:hover {
-  background-color: #5f5f5f;
+  background-color: var(--sugar-skull-black);
 }
 
 .btn.btn-white {
-  background-color: #ffffff;
-  color: #1a1a1a;
+  background-color: var(--unik-white);
+  color: var(--sugar-skull-black);
 }
 
 .btn.btn-white:hover {
-  background-color: #cccccc;
+  background-color: var(--sugar-skull-black);
 }
 
 .btn.btn-black {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: var(--sugar-skull-black);
+  color: var(--unik-white);
 }
 
 .btn.btn-black:hover {
-  background-color: #666666;
+  background-color: var(--jalapeno-dream);
 }
 
 .btn.btn-link {
-  background-color: #1b89bc;
-  color: #ffffff;
+  background-color: var(--blue-skies);
+  color: var(--unik-white);
 }
 
 .btn.btn-link:hover {
-  background-color: #31a9e1;
+  background-color: var(--jalapeno-dream);
 }
 
 @media only screen and (max-width: 600px) {
