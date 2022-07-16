@@ -1,6 +1,6 @@
 # Text Mex Text Editor
 
-This single-page application allows users to edit text on and offline.
+Inspired by a hungry developer's hankering for Mexician cuisine, Text Mex Text Editor delights users with a single page experience sure to entice them with future Progressive Web Application creations. Data persistence and offline capabilities are just a few of the fresh and spicy stars of this technological foray into more modern design patterns. 
 
 ## Table of contents
 
@@ -15,19 +15,22 @@ This single-page application allows users to edit text on and offline.
 
 ## Technologies
 
-This application was built using starter code, node.js, Webpack, and a package called idb.
+This application was cooked up using starter code, node.js, Webpack, and a package called idb.
 
 ## Mockup
 
-image
+To begin, open VS Code's Terminal and type "npm run build".
 
-<img src="./assets/textmex.gif" width="550" height="300" alt="Text Mex Text Editor"/>
+<img src="assets/tmte1.png" alt="command 1" width="400"/>
 
+Second, --- .
+
+<img src="assets/tmte2.png" alt="command 2" width="400"/>
+
+Finally, --- .
+
+<img src="assets/tmte3.png" alt="command 3" width="400"/>
 ## Resources-used
-
-- <a href="link" target="_blank"> Details </a>
-
-- <a href="link" target="_blank"> Details </a>
 
 ## Possible-improvements
 
@@ -47,7 +50,7 @@ image
 
 ## Author
 
-This application was created by Amy U. Shafer. You can summon her at Amy.U.Shafer@gmail.com.
+This application was created by Amy U. Shafer. You can send her vegan enchiladas recipes at Amy.U.Shafer@gmail.com.
 
 ## Licensing
 

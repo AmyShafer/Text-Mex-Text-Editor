@@ -20,16 +20,34 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Webpack Plugin',
+        title: 'tmte',
       }),
-      new MiniCssExtractPlugin(),
-      new WorkboxWebpackPlugin.GenerateSW(),
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js'
+      }),
+      new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
+        name: 'tmte',
+        short_name: 'tmte',
+        description: 'text editor',
+        background_color: '#6ec8ef',
+        theme_color: '#c10723',
+        start_url: '/',
+        publicPath: '/',
+        icons: [{
+          src: path.resolve('src/images/tmteLogo.png'),
+          sizes: [96, 128, 192, 256],
+          destination: path.join('assets', 'icons'),
+        }, ],
+      }),
     ],
 
     module: {
       rules: [{
           test: /\.css$/i,
-          use: [MiniCssExtractPlugin.loader, 'css-loader'],
+          use: ['style-loader', 'css-loader'],
         },
         {
           test: /\.(png|svg|jpg|jpeg|gif)$/i,
@@ -42,6 +60,9 @@ module.exports = () => {
             loader: 'babel-loader',
             options: {
               presets: ['@babel/preset-env'],
+              plugins: [
+                "@babel/plugin-proposal-object-rest-spread", "@babel/transform-runtime"
+              ]
             },
           },
         },
