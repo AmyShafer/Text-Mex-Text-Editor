@@ -1,6 +1,6 @@
 # Text Mex Text Editor
 
-Inspired by a hungry developer's hankering for Mexician cuisine, Text Mex Text Editor delights users with a single page experience sure to entice them with future Progressive Web Application creations. Data persistence and offline capabilities are just a few of the fresh and spicy stars of this technological foray into more modern design patterns. 
+Inspired by a hungry developer's hankering for Mexician cuisine, Text Mex Text Editor delights users with a single page experience sure to entice them with future Progressive Web Application creations. Data persistence and offline capabilities are just a few of the fresh and spicy stars of this technological foray into more modern design patterns.
 
 ## Table of contents
 
@@ -13,36 +13,51 @@ Inspired by a hungry developer's hankering for Mexician cuisine, Text Mex Text E
 - [Author](#author)
 - [Licensing](#licensing)
 
+---
+
 ## Technologies
 
 This application was cooked up using starter code, node.js, Webpack, and a package called idb.
 
 ## Mockup
 
-To begin, open VS Code's Terminal and type "npm run build".
+To begin, open VS Code's Terminal and type "npm run start:build".
 
-<img src="assets/tmte1.png" alt="command 1" width="400"/>
+<img src="client/src/images/tmte1.png" alt="Step 1" width="400"/>
 
-Second, --- .
+Second, enter "localhost:3000" into your address bar.
 
-<img src="assets/tmte2.png" alt="command 2" width="400"/>
+<img src="client/src/images/tmte2.png" alt="Step 2" width="400"/>
 
-Finally, --- .
+Finally, check out the application. Install the app to try it offline!
 
-<img src="assets/tmte3.png" alt="command 3" width="400"/>
+<img src="client/src/images/tmte3.png" alt="Step 3" width="400"/>
+
 ## Resources-used
+
+I visited the docs for Service Workers.
+
+[![](https://img.shields.io/badge/Service-Worker-%23017d2b)](https://developer.chrome.com/docs/workbox/service-worker-overview/)
+
+I sought out some background info on WebPack.
+
+[![](https://img.shields.io/badge/Web-Pack-%23f5f5f5)](https://flaviocopes.com/webpack/)
+
+I needed some pointers with IndexDB.
+
+[![](https://img.shields.io/badge/Index-DB-%23aa0e20)](https://www.youtube.com/watch?v=g4U5WRzHitM)
+
+I had a snack.
+
+[![](https://img.shields.io/badge/Vegan-Tacos-%23d4c462)](https://www.theveganstoner.com/search?q=tacos&x=0&y=0)
 
 ## Possible-improvements
 
-1 -
-
-2 -
-
----
+I had a hard time with ASCII Art and decided to save the struggle for a future iteration of the project.
 
 ## Github-url
 
-<a href="link">Text Mex Text Editor Repo</a>
+<a href="https://github.com/AmyShafer/Text-Mex-Text-Editor">Text Mex Text Editor Repo</a>
 
 ## Deployed-url
 
