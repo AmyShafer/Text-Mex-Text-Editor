@@ -61,7 +61,7 @@ I had a hard time with ASCII Art and decided to save the struggle for a future i
 
 ## Deployed-url
 
-<a href="https://git.heroku.com/text-mex-text-editor.git">Text Mex Text Editor URL</a>
+<a href="https://text-mex-text-editor.herokuapp.com">Text Mex Text Editor URL</a>
 
 ## Author
 
