@@ -4,7 +4,6 @@ const path = require('path');
 const {
   InjectManifest
 } = require('workbox-webpack-plugin');
-// TODO: Add CSS loaders and babel to webpack.
 
 module.exports = () => {
   return {
@@ -29,11 +28,11 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'tmte',
-        short_name: 'tmte',
-        description: 'text editor',
-        background_color: '#6ec8ef',
-        theme_color: '#c10723',
+        name: 'Text Mex Text Editor',
+        short_name: 'TMTE',
+        description: 'Write down your food inspired thoughts with Text Mex Text Editor.',
+        background_color: '#aa0e20',
+        theme_color: '#017d2b',
         start_url: '/',
         publicPath: '/',
         icons: [{
