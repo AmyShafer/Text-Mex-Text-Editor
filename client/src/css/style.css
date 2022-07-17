@@ -8,7 +8,7 @@
   --two-hundred-pesos: #d4c462;
   --enchiladas-orange: #f08e48;
   --sugar-skull-black: #120200;
-  --navbar-height: 50px;
+  --navbar-height: 100px;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 35px;
   font-family: 'Catamaran', sans-serif;
   text-transform: capitalize;
 }
@@ -31,13 +31,13 @@ h1 {
   align-items: center;
   justify-content: space-between;
   color: var(--unik-white);
-  font-size: 22px;
-  font-weight: 550;
+  font-size: 35px;
+  font-weight: 500;
   letter-spacing: 0.9px;
 }
 
 .navbar-brand img {
-  padding-top: 1px;
+  padding-top: 2px;
 }
 
 .loading-spinner {
@@ -53,6 +53,7 @@ h1 {
 }
 
 .loading-container {
+  font-family: 'Edu SA Beginner', cursive;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,16 +81,17 @@ h1 {
 }
 
 .nav-btn {
-  margin: 25px;
+  margin: 14px;
 }
 
 .btn {
   text-align: center;
   display: inline-block;
-  padding: 0.5rem 1.2rem;
+  padding: 0.5rem 1.1rem;
   margin: 0;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
   border-radius: 0.3rem;
   border: 1px solid transparent;
   outline: none;
@@ -210,6 +212,6 @@ h1 {
   }
 
   h1 {
-    font-size: 18px;
+    font-size: 28px;
   }
 }
