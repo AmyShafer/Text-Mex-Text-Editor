@@ -21,7 +21,7 @@ This application was cooked up using starter code, node.js, Webpack, and a packa
 
 ## Mockup
 
-To begin, open VS Code's Terminal and type "npm run start:build".
+To begin, open VS Code's Terminal and type "npm run start:dev".
 
 <img src="client/src/images/tmte1.png" alt="Step 1" width="400"/>
 
@@ -61,7 +61,7 @@ I had a hard time with ASCII Art and decided to save the struggle for a future i
 
 ## Deployed-url
 
-<a href="https://text-mex-text-editor.herokuapp.com">Text Mex Text Editor URL</a>
+<a href="https://text-mex-text-editor.onrender.com/">Text Mex Text Editor URL</a>
 
 ## Author
 
